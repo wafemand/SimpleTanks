@@ -95,6 +95,8 @@
     <Compile Include="Assets\Scripts\NetworkLogic\ServerStart.cs" />
     <Compile Include="Assets\Scripts\TankPrefubManager.cs" />
     <Compile Include="Assets\Scripts\TurretMover.cs" />
+    <Compile Include="Assets\Scripts\UnityNetworkLogic\ClientSide.cs" />
+    <Compile Include="Assets\Scripts\UnityNetworkLogic\ServerSide.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
